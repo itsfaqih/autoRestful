@@ -1,0 +1,29 @@
+{
+  "name": "restful-orm",
+  "version": "1.0.0",
+  "description": "Simple MVC-like REST API backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsfaqih/restfulORM.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "mvc"
+  ],
+  "author": "itsfaqih",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsfaqih/restfulORM/issues"
+  },
+  "homepage": "https://github.com/itsfaqih/restfulORM#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
