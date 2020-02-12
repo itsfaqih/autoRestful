@@ -8,8 +8,8 @@ Simple and easy to use automated MVC-like REST API backend built using Express.
 ## Installation
 1. Clone this project
 ```
-git clone https://github.com/itsfaqih/restfulORM.git
-cd restfulORM
+git clone https://github.com/itsfaqih/autoRestful.git
+cd autoRestful
 npm i
 ```
 
@@ -75,8 +75,23 @@ module.exports = UserController
   }
 ```
 
+This will generate all restful endpoints as follows:
+```
+GET /users (get all user data)
+POST /users (create new user)
+GET /users/:id (get one user data)
+PUT /users/:id (update user data)
+DELETE /users/:id (delete user data)
+```
+
+NB: id parameter use a column named "id" by default.
+
 ### Deploy
 ```
 npm run start
 ```
 It will run on port 3000 by default, open localhost:3000/{endpoint} to see the result
+
+## To Do
+- [ ] Implement ORM library
+- [ ] CLI for generating boilerplates
