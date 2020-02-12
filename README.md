@@ -1,5 +1,5 @@
-# restfulORM
-Simple MVC-like REST API backend built using Express
+# autoRestful
+Simple and easy to use automated MVC-like REST API backend built using Express.
 
 ## Supported DBMS
 * MySQL 5.7
@@ -14,7 +14,7 @@ npm i
 ```
 
 2. Setup database configuration
-```
+```javascript
 // model/db.js
 
 const db = mysql.createConnection({
@@ -27,7 +27,7 @@ const db = mysql.createConnection({
 
 ## Usage
 ### Model
-```
+```javascript
 // model/User.js (you can create your own)
 
 'use strict';
@@ -53,7 +53,7 @@ module.exports = User
 ```
 
 ### Controller
-```
+```javascript
 // controller/userController.js (you can create your own)
 
 'use strict';
@@ -67,7 +67,7 @@ module.exports = UserController
 ```
 
 ### Routes
-```
+```javascript
 // routes.js
   {
       endpoint: '/users', // set the endpoint url
