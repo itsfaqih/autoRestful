@@ -1,6 +1,8 @@
 # autoRestful
 Simple and easy to use automated MVC-like REST API backend built using Express.
 
+This repo is now archived. Please use the better version instead: [autoRestfulPrisma](https://github.com/itsfaqih/autoRestfulPrisma)
+
 ## Supported DBMS
 * MySQL 5.7
 * MariaDB
